@@ -65,4 +65,7 @@ export const newDocsMap = new Map([
   // This is a remnant of some buggy workers.cloudflare.com code,
   // we should explicitly handle this and send them to the right place
   ['/workers/docs', '/workers'],
+
+  ['/reference/storage/limits', '/about/limits#kv'],
+  ['/reference/storage/pricing', '/about/pricing#kv'],
 ])
